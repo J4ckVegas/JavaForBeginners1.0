@@ -5,9 +5,7 @@
 3. Деление среднего арифметического на 2 без остатка
 4. Если полученное число больше 3, то вывести на экран сообщение "Программа выполнена корректно"
  */
-
 import java.util.Scanner;
-
 public class Task4
 {
     public static void main(String args[])
@@ -19,6 +17,6 @@ public class Task4
         System.out.print("Введите значение для Z: "); int Z = scan.nextInt();
 
         System.out.println ("Вывод на экран среднего арифметического = " + (X + Y + Z) / 3.0);
-        System.out.println("Деление среднего арифметического на 2 без остатка = " + ((X + Y + Z)/3/2));
+        System.out.println("Деление среднего арифметического на 2 без остатка = " + (X + Y + Z)/3/2);
     }
 }
