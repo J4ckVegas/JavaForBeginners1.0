@@ -8,7 +8,7 @@ public class Task6 {
             Scanner TS = new Scanner(System.in);
             System.out.print("Введите число для переменной Т: ");
             int T = TS.nextInt();
-            int X = 1, Y = 3, Z = 5;
+            final int X = 1, Y = 3, Z = 5;
             if (T == X) { System.out.println("Данное значение имеется в константах"); }
             else if (T == Y) { System.out.println("Данное значение имеется в константах"); }
             else if (T == Z) { System.out.println("Данное значение имеется в константах"); }
