@@ -8,7 +8,7 @@ public class Task5 {
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите значение для X, Y, Z: ");
-        double X = scan.nextInt(), Y = scan.nextInt(), Z = scan.nextInt();
+        double X = scan.nextDouble(), Y = scan.nextDouble(), Z = scan.nextDouble();
         double j = (X + Y + Z) / 3;
         System.out.println ("Вывод на экран среднего арифметического = " + j);
         int P = (int) j / 2;
