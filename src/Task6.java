@@ -9,9 +9,9 @@ public class Task6 {
             System.out.print("Введите число для переменной Т: ");
             int T = TS.nextInt();
             final int X = 1, Y = 3, Z = 5;
-            if (T == X) { System.out.println("Данное значение имеется в константах"); }
-            else if (T == Y) { System.out.println("Данное значение имеется в константах"); }
-            else if (T == Z) { System.out.println("Данное значение имеется в константах"); }
+            if (T == X || T == Y || T == Z) {
+                System.out.println("Данное значение имеется в константах");
+            }
             else { System.out.println("Такой константы нет!"); }
         }
     }
