@@ -3,7 +3,7 @@
 со значением констант и вывести на экран сообщение "Данное значение имеется в константах" если T=X или Y или Z.
 Если переменная отличается от констант, нужно вывести оповещение "Такой константы нет!" */
 import java.util.Scanner;
-public class Task6 {
+public class Task06 {
     public static void main(String[] args) {
             Scanner TS = new Scanner(System.in);
             System.out.print("Введите число для переменной Т: ");
