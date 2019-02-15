@@ -15,7 +15,7 @@ public class Task10 {
 
         for (q = 0; q < n; q++) {
             for (h = 0; h < l; h++) {
-                System.out.print("Присвойте число массиву [" + q +"]["+ h + "]: ");
+                System.out.print("Присвойте число элементу массива [" + q +"]["+ h + "]: ");
                 arr[q][h] = scan.nextInt();
             }
         }
