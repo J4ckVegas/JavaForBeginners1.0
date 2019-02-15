@@ -3,23 +3,24 @@
 где каждый элемент умножается на 3. */
 
 import java.util.Scanner;
-class Task10 {
+public class Task10 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int arr[][] = new int[2][2];
-        int t, i;
+        System.out.print("Задайте длину массива: ");
+        int n = scan.nextInt();
+        System.out.print("Задайте ширину массива: ");
+        int l = scan.nextInt();
+        int arr[][] = new int[n][l];
+        int q, h;
 
-        System.out.print("Введите значения для двумерного массива: ");
-        arr[0][0] = scan.nextInt();
-        arr[0][1] = scan.nextInt();
-        arr[1][0] = scan.nextInt();
-        arr[1][1] = scan.nextInt();
-
-        for (t=0; t<2; ++t) {
-            for (i=0; i<arr[t].length; ++i) {
-                System.out.print(arr[t][i] + " ");
-            }
-            System.out.println();
+        for (q = 0; q < n; q++) {
+            for (h = 0; h < l; h++) {
+                System.out.print("Присвойте число массиву [" + q +"]["+ h + "]: ");
+                arr[q][h] = scan.nextInt();
             }
         }
+        for(int i = 0; i < n; i++){
+            System.out.println(arr[0][i] + "*3" + "=" + arr[0][i]*3);
+        }
     }
+}
