@@ -18,7 +18,7 @@ public class Task18 {
 
                 i += 1;
             }
-            System.out.println("Колвичетсво строк: " + i);
+            System.out.println("Кол-во строк: " + i);
 
             String str;
             BufferedReader brd = new BufferedReader (new InputStreamReader(System.in));
