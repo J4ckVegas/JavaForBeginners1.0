@@ -13,10 +13,10 @@ public class Task17 {
             do {
                 System.out.print(": ");
                 str = br.readLine();
-                if (str.compareTo("stop") == 0) break;
+                if (str.equals("stop") == true) break;
                 str = str + "\r\n";
                 nFile.write(str);
-            } while (str.compareTo("stop") != 0);
+            } while (str.equals("stop") == false);
         } catch (IOException exc) {
             System.out.println("Ошибка ввода/вывода: " + exc);
         }
